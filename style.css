@@ -14,6 +14,7 @@ button {
 background-color: #3882F6;
 width: 100px;
 border-radius: 25px;
+font-weight: bold;
 }
 
 img {
@@ -117,8 +118,65 @@ img {
 .greybox {
     width: 800px;
     height: 200px;
-    background-color: lightgray;
+    background-color: #E5E7EB;
     display:flex;
     justify-content:center;
+    flex-direction: column;
+    align-items: center;
     margin-top: 35px;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 50;
+    width: 600px;
+
+}
+
+.author {
+    color: black;
+    font-weight: bold;
+    padding-left: 500px;
+}
+
+.lightbluecontainer {
+    display:flex;
+    background-color: #3882F6;
+    width: 600px; 
+    height: 70px;
+    margin-top: 35px;
+}
+
+.rightlightblue {
+    display:flex;
+    flex-direction: column;
+    width: 450px;
+    align-items: center;
+    justify-content: center;
+}
+
+.lowerbutton {
+    color:#F9FAF8;
+    border-color: #E5E7EB;
+}
+
+.rightlbtop {
+    padding-right: 145px;
+    font-size: 18px;
+    color:#F9FAF8;
+    font-weight: bold;
+}
+
+
+.leftlightblue {
+    display:flex;
+    align-items: center;;
+}
+
+.rightlbbot {
+    font-size: 13px;
+    padding-right: 80px;
+    color:#E5E7EB;
 }
